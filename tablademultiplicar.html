@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<h1> JUEGOD DE ADIVINACIÓN</h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br><br><br>");
+    }
+
+    function imprime(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var multiplicador = 1
+
+    imprime("WHILE");
+
+    while ( multiplicador <= 10 ) {
+        imprime(5 * multiplicador);
+        multiplicador = multiplicador + 1;
+    }
+
+    imprime("FOR");
+
+    for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+        imprime(5 * multiplicador);
+    }
+    
+</script>
